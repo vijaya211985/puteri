@@ -1,4 +1,4 @@
-pip3 install Imblearn import imblearn
+import imblearn
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns

@@ -80,7 +80,7 @@ for x in outlier_columns:
     df=df[~((df[x]<lower_limit)|(df[x]>upper_limit))]
 
 fig, axs = plt.subplots(5, figsize = (7,7))
-plt1 = sns.boxplot(df['age'], ax = axs[0])
+%plt1 = sns.boxplot(df['age'], ax = axs[0])
 plt2 = sns.boxplot(df['hypertension'], ax = axs[1])
 plt3 = sns.boxplot(df['heart_disease'], ax = axs[2])
 plt4 = sns.boxplot(df['avg_glucose_level'], ax = axs[3])

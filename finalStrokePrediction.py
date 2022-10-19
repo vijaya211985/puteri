@@ -1,7 +1,7 @@
 
 
 
-pip3 install imblearn
+!pip install imblearn
 
 
 

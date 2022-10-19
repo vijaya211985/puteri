@@ -14,7 +14,7 @@ import warnings # For suppressing warnings
 warnings.filterwarnings("ignore")
 
 
-df = pd.read_csv(r"C:\Users\Acer\Desktop\data science project\stroke\healthcare-dataset-stroke-data.csv")
+df = pd.read_csv(r"healthcare-dataset-stroke-data.csv")
 
 
 print(df.head())
